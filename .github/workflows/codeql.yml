@@ -55,6 +55,6 @@ jobs:
         msbuild WebGoat.NET.sln /p:Configuration=Release
 
 
-    # 執行 CodeQL 分析並上傳 SARIF
+    # 執行 CodeQL 分析並上傳
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
